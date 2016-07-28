@@ -4,12 +4,10 @@
 
 package it.morfoza.java101;
 
-import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
-
 public class Veriables {
-    static int i1=0;
+    static int i1=10;
     static byte b1=0;
-    static long l1=0;
+    static long l1=100;
     static short s1=0;
     static char c1=263;
     static double d1=0.0;
@@ -31,6 +29,9 @@ public class Veriables {
         System.out.println(ob1);
         System.out.println(bo1);
 
+        i1= (int)l1;
+
+
         byte b2 = 1;
         if(b2==0) {
             System.out.println("Ok!");
@@ -40,7 +41,7 @@ public class Veriables {
         }
 
 
-        if(b2==d1) {
+        if(i1==l1) {
             System.out.println("Ok!");
         }
         else {
@@ -54,5 +55,7 @@ public class Veriables {
             System.out.println("Pfffff... źle!");
         }
 
+        l1=Integer.MAX_VALUE + 1;
+        System.out.println(l1);
     };
 }
