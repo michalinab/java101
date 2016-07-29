@@ -17,7 +17,7 @@
      <appendAssemblyId>false</appendAssemblyId>
      <archive>
       <manifest>
-       <mainClass>it.morfoza.java101.Pokemon.Main</mainClass>
+       <mainClass>it.morfoza.java101.pokemon.Main</mainClass>
       </manifest>
      </archive>
     </configuration>
