@@ -30,7 +30,9 @@ public class Pokemon {
     }
 
     public void attack(Pokemon enemy) {
-        enemy.takeAttack(cp);
+        if(this != enemy) {
+            enemy.takeAttack(cp);
+        }
 
     }
 }
